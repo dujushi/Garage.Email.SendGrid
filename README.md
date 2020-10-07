@@ -23,3 +23,6 @@ var response = await _sendGridClient.SendEmailAsync(msg, cancellationToken);
 
 ### Error handling
 The possible errors are stated in [this document](https://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/errors.html).
+
+### Demo
+https://github.com/dujushi/Garage.Email.SendGrid
