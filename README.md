@@ -1,5 +1,5 @@
 # Send emails with SendGrid
-[SendGrid](https://sendgrid.com) is a popular email service provider. [The free plan](https://sendgrid.com/pricing) gives you 100 emails/day to play around with the service. [The SendGrid Nuget Package](https://github.com/sendgrid/sendgrid-csharp) makes C# integration easy and smooth. This article will show you how to integrate SendGrid with a Asp.NET Core Web API project.
+[SendGrid](https://sendgrid.com){:target="_blank"} is a popular email service provider. [The free plan](https://sendgrid.com/pricing){:target="_blank"} gives you 100 emails/day to play around with the service. [The SendGrid Nuget Package](https://github.com/sendgrid/sendgrid-csharp){:target="_blank"} makes C# integration easy and smooth. This article will show you how to integrate SendGrid with a Asp.NET Core Web API project.
 
 ### Dependency Injection
 Install nuget pakcage `SendGrid.Extensions.DependencyInjection`.
@@ -22,4 +22,4 @@ var response = await _sendGridClient.SendEmailAsync(msg, cancellationToken);
 ```
 
 ### Error handling
-The possible errors are stated in [this document](https://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/errors.html).
+The possible errors are stated in [this document](https://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/errors.html){:target="_blank"}.
